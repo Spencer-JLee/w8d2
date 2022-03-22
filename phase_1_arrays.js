@@ -8,7 +8,7 @@ Array.prototype.uniq = function() {
   }
 
   return new_arr;
-}
+};
 
 Array.prototype.twoSum = function() {
   let hash = {};
@@ -25,7 +25,7 @@ Array.prototype.twoSum = function() {
   }
 
   return pairs;
-}
+};
 
 Array.prototype.transpose = function(){
   let result = [...Array(this[0].length)].map(e => Array(this.length));
@@ -36,7 +36,7 @@ Array.prototype.transpose = function(){
     }
   }
   return result;
-}
+};
 
 console.log([1,2,2,3,3,3].uniq());
 console.log([1, 2, 3, -1, -2, -3].twoSum());
